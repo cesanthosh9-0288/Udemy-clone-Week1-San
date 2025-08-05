@@ -97,21 +97,24 @@
  .recmd__crs{
     padding: 10px;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    gap:5px;
+    justify-content: space-between;
  }
 
- .recmd__c1 img, .recmd__c2 img, .recmd__c3 img{
-    width: 410px;
-    height: 240px;
-    border-bottom: 5px;;
+ 
+ .recmd__c1 , .recmd__c2 , .recmd__c3 {
+    width: 390px;
+    padding: 10px;
+    border-radius: 20px;
 }
 
- .recmd__c1 , .recmd__c2 , .recmd__c3 {
-    width: 420px;
-    padding: 10px;
-    border-radius: 20px;;
+ .recmd__c1 img, .recmd__c2 img, .recmd__c3 img{
+    width: 380px;
+    height: 240px;
+    border-bottom: 5px;
 }
+
 
 .recmd__headers{
     font-weight: bold;
