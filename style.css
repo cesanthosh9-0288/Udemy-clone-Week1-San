@@ -8,25 +8,30 @@
  }
 
 .nav__bar{
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
+}
+
+.nav__bar__title{
+   font-weight: bold;
+   font-size: 33px;
 }
 
  .nav__bar__cnt{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding:5px;
+    padding:2px;
     gap: 10px;
  }
 
  .nav__bar__cnt__s2{
-    padding: 10px;
+    padding: 3px;
     border: solid black 1px;
     border-radius: 30px;
     width:45%;
     display:flex;
-    gap:10px;
+    gap:6px;
     align-items:center;
  }
 
@@ -71,17 +76,19 @@
 
  .depts{
     display: flex;
-    justify-content: space-around;
-    padding: 10px;
+    gap: 30px;
+    padding: 10px 24px;
+    margin: 4px;
     border-bottom: solid black 1px;
     border-top: solid black 1px;
 }
 
 .depts p{
-    background-color: blueviolet;
-    color: white;
-    padding: 10px;
-    border-radius: 30px;
+    color: black;
+    padding: 4px;
+    font-weight: thin;
+    font-size: 14px;
+    gap: 10px;
 }
 
  .menu__img img{
@@ -91,7 +98,9 @@
  }
 
  .recmd__title, .recmd__stitle{
-    padding: 7px;
+    padding: 3px;
+    margin: 2px;
+    border: 2px;
  }
 
  .recmd__crs{
@@ -143,8 +152,8 @@
  }
 
  .box{
-    padding: 13px;
-    margin:4px;
+    padding: 12px;
+    margin:8px;
     display:inline-block;
     border: 2px solid black;
     font-size: 15px;
@@ -155,7 +164,7 @@
  }
 
  .rt__title, .rt__stitle{
-    padding: 8px;
+    padding: 4px;
     margin: 2px;
     border-bottom: 5px;
  }
@@ -163,7 +172,7 @@
  .rt__courses__cnt{
     display: flex;
     gap: 49px;
-    padding: 10px;
+    padding: 8px;
     border-bottom: solid 1px black;
     font-weight: bold;
  }
@@ -182,7 +191,7 @@
 
  .rt__courses__det{
     padding:5px;
-    margin:2px;
+    margin:3px;
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -294,6 +303,16 @@
     padding: 10px;
     margin: 10px;
     border-bottom: 2px grey solid;
+    font-size: 12px;
+}
+
+.footer__a__one, .footer__a__two, .footer__a__three, .footer__a__four{
+   width:21%;
+}
+
+.ft__cnt1__hdr{
+   font-weight: bold;
+   font-size: 33px;
 }
 
 .footer__b{
